@@ -26,5 +26,16 @@ public class PlusMinus01 {
         System.out.println("a : "  + a);//
         System.out.println("b : "  + b);//
         System.out.println("c : "  + c);//
-    }
+
+                int x = 3, y =5, z ;
+                z = x++ + --y ;
+                System.out.println("x : "  + x);//
+                System.out.println("y : "  + y);//
+                System.out.println("z : "  + z);//
+        z+=--x + y++ ;
+        System.out.println("x : "  + x);//
+        System.out.println("y : "  + y);//
+        System.out.println("z : "  + z);//
+
+            }
 }
