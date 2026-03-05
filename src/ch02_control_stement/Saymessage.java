@@ -2,12 +2,12 @@ package ch02_control_stement;
 
 public class Saymessage {
     static void main(String[] args) {
-String message = "안녕하세요." ;
+        String message = "안녕하세요.";
         int su = 5;
-        for (int i =1; i<=su; i++){
+        for (int i = 1; i <= su; i++) {
+            System.out.println(message);
         }
-        System.out.println("message");
     }
-    }
+}
 
 
