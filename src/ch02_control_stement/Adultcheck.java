@@ -13,7 +13,7 @@ public class Adultcheck {
             }
             String adult ;
             if(age>=19){
-                adult = "성인" ;
+                adult = "성인" ; //
             }else{
                 adult = "미성년자" ;
             }
